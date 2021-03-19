@@ -5,3 +5,5 @@ assassination of the “president”. You can navigate the map using the arrows 
 keyboard. To prevent murder, you must “sacrifice yourself” and stop the bullet with your 
 “body”(body is player symbol «<»). If you move, the bullet is accelerating. If the bullet hits its 
 target (the president), you lose. 
+
+#gcc -std=c11 mm.c -o mm -Werror -Wall -lm
